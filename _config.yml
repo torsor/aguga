@@ -1,0 +1,13 @@
+testing: true
+
+# Site settings
+title: "The Algebraic Geometry group at the University of Georgia"
+description: "complex solutions to polynomial equations"
+
+baseurl: ""
+
+# url: "localhost:4000"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
