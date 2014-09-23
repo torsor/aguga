@@ -9,10 +9,10 @@
 	{% if site.testing %}
     <!-- local jQuery -->
 	<script src=
-	"{{ "js/jquery-1.11.1.js" | prepend: site.baseurl }}"></script>
+	"{{ "/js/jquery-1.11.1.js" | prepend: site.baseurl }}"></script>
 
     <!-- local Bootstrap -->
-	<link href="{{ "css/bootstrap.css" | prepend: site.baseurl }}"
+	<link href="{{ "/css/bootstrap.css" | prepend: site.baseurl }}"
 	rel="stylesheet">
 
 	{% else %}
@@ -34,12 +34,12 @@
 
     <!-- My Stuff -->
     <link rel="stylesheet" href=
-	"{{ "css/danny.css" | prepend: site.baseurl }}">
+	"{{ "/css/danny.css" | prepend: site.baseurl }}">
 	<script src=
-	"{{ "js/danny.js" | prepend: site.baseurl }}"></script>
+	"{{ "/js/danny.js" | prepend: site.baseurl }}"></script>
   </head>
     <!-- my Bootstrap mods-->
-	<link href="{{ "css/bootstrap-dannymod.css" | prepend: site.baseurl }}"
+	<link href="{{ "/css/bootstrap-dannymod.css" | prepend: site.baseurl }}"
 	rel="stylesheet">
 
 </head>
